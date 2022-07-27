@@ -13,6 +13,7 @@ create_dataset.sh
 
 ### End-to-End training:
 In this step, we train SimpleTOD on the sequence of context+belief+action+lex response. 
+here we train on gpt2 model (https://huggingface.co/gpt2)
 ```
 train_end2end.sh 
 ```
